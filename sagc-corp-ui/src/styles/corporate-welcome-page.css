@@ -1,0 +1,19 @@
+/* .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+} */
+
+/* For mobile phones */
+@media (max-width: 400px) and (max-width: 700px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+a {
+    text-decoration: none;
+}
