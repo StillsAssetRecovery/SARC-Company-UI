@@ -25,25 +25,21 @@ const NavBarElementTitles = [
 
 const HeaderNavbarElements = () => {
     return (
-        <ReactBootStrap.Nav as="ul" className="justify-content-center fill">
-            {NavBarElementTitles.map((element) => {
-                if (element.dropdownItems) {
-                    return (
-                        <ReactBootStrap.NavDropdown title={element.name} key={element.name} autoClose={true}>
-                            {element.dropdownItems.map(
-                                (item) => { return <ReactBootStrap.NavDropdown.Item style={{ padding: "0em 5em 0em 5em" }} key={item.name}>{item.name}</ReactBootStrap.NavDropdown.Item> }
-                            )}
+        <ReactBootStrap.Navbar collapseOnSelect as="ul" bg="dark" variant="dark" expand="lg" sticky='top'>
+                <ReactBootStrap.Navbar.Toggle />
+                <ReactBootStrap.Navbar.Collapse>
+                    <ReactBootStrap.Nav>
+                        <ReactBootStrap.NavDropdown title="Dropdown">
+                            <ReactBootStrap.NavDropdown.Item>
+                                a
+                            </ReactBootStrap.NavDropdown.Item>
+                            <ReactBootStrap.NavDropdown.Item>
+                                b
+                            </ReactBootStrap.NavDropdown.Item>
                         </ReactBootStrap.NavDropdown>
-                    )
-                } else {
-                    return (
-                        <ReactBootStrap.Nav.Item key={element.name}>
-                            <ReactBootStrap.Nav.Link href="#" name={element.name}>{element.name}</ReactBootStrap.Nav.Link>
-                        </ReactBootStrap.Nav.Item>
-                    )
-                }
-            })}
-        </ReactBootStrap.Nav>
+                    </ReactBootStrap.Nav>
+                </ReactBootStrap.Navbar.Collapse>
+        </ReactBootStrap.Navbar>
     );
 };
 

@@ -1,5 +1,5 @@
 import './App.css';
-import { CorportateWelcomePage } from './components/corporate-welcome-page';
+import  CorportateWelcomePage from './components/corporate-welcome-page';
 
 function App() {
     return (
