@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SARC-Company-UI/static/css/main.6378255f.css",
+    "main.js": "/SARC-Company-UI/static/js/main.6c0b8ab2.js",
+    "static/js/787.d8558300.chunk.js": "/SARC-Company-UI/static/js/787.d8558300.chunk.js",
+    "static/media/new_york_city_view.png": "/SARC-Company-UI/static/media/new_york_city_view.475126dd6fd72ae3a461.png",
+    "static/media/slick.svg": "/SARC-Company-UI/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SARC-Company-UI/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SARC-Company-UI/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SARC-Company-UI/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SARC-Company-UI/index.html",
+    "main.6378255f.css.map": "/SARC-Company-UI/static/css/main.6378255f.css.map",
+    "main.6c0b8ab2.js.map": "/SARC-Company-UI/static/js/main.6c0b8ab2.js.map",
+    "787.d8558300.chunk.js.map": "/SARC-Company-UI/static/js/787.d8558300.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6378255f.css",
+    "static/js/main.6c0b8ab2.js"
+  ]
+}
